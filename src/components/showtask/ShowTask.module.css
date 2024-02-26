@@ -1,0 +1,44 @@
+.taskBox {
+  width: 94%;
+  margin: auto;
+  max-height: 55vh;
+  padding: 2px;
+  background-color: #ede413;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow-y: scroll;
+}
+
+.task {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #c91414;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 0.8rem;
+  color: black;
+  transition: box-shadow 0.3s;
+}
+
+.task:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+.task .icons {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.task .icons:hover {
+  color: blue;
+  transform: scale(1.01);
+}
